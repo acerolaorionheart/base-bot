@@ -1,0 +1,26 @@
+{
+  "name": "base-bot",
+  "version": "1.0.0",
+  "description": "a base to make discord bots using oceanic.js",
+  "main": "source/index.ts",
+  "scripts": {
+    "test": "tsx test",
+    "start": "rm -rf dist && tsc && node dist/index.js",
+    "dev": "tsx .",
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "moment": "^2.30.1",
+    "oceanic.js": "^1.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
